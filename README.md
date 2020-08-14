@@ -14,6 +14,6 @@ Of these:
 
 The remaining files build on the existing code available at https://github.com/nimazzi/Stand_and_Adapt_Bend
 
-* load_new_functions.jl consists of several new functions for updating and modifying data structures defined in the original codes load_functions.jl package; this should be placed in the functions subfolder with the other function definitions
+* load_newfunctions.jl consists of several new functions for updating and modifying data structures defined in the original codes load_functions.jl package; this should be placed in the functions subfolder with the other function definitions
 
 * main.jl is intended to replace the main.jl used in the original code; it allows the user to specify which tree they wish to solve the master problem on and the rule used to sample off-the-tree
