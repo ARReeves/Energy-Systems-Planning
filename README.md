@@ -8,7 +8,7 @@ Of these:
 
 * adaptive_oracles_AR.jl is a small-scale implementation of the adaptive oracles Benders decomposition algorithm.  This code generates random matrices A, B and C to specify the subproblems required.  Note that with this small example, it is typical to find an exactly optimal solution in the process of finding an ε-optimal solution.  This script can be run on its own and is not needed for anything else.
 
-* Scenario_trees.jl implements a basic scenario tree model, allowing for trees to be split at specificed nodes.  This code uses the Gadfly and Light Graphs packages to allow users to visualise the trees generated.
+* Scenario_trees.jl implements a basic scenario tree model, allowing for trees to be split at specific nodes.  This code uses the Gadfly and LightGraphs packages to allow users to visualise the trees generated.
 
 * Casey_Sen.jl then builds on this code to implement tools for solving problems of the form given in the example of Section 3.5 of the dissertation (and in the original paper by Casey and Sen)
 
